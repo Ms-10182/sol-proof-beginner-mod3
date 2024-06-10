@@ -30,6 +30,7 @@ REACT_APP_SOLANA_NETWORK=devnet
 REACT_APP_SOLANA_RPC_HOST=https://api.devnet.solana.com
 SKIP_PREFLIGHT_CHECK=true
 ```
+8) replace ```"start": "export SET NODE_OPTIONS=--openssl-legacy-provider && craco start"``` into package.json of front end.
 you will find machine id while deploying the machine.
 run these commands : 
 ```javascript
