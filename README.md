@@ -15,13 +15,15 @@ solana airdrop 1
 2) paste your private key in ```getTokens.js``` and mint 20 SPL. and then send some SPL to other account purpose.
 3) From solana explorer copy and paste the ```splToken``` and ```splTokenAccount``` into ```config.js``` also set the creator address.
 4) Follow there commands:
-        ```sugar validate```
-        ```sugar upload```
-        ```sugar deploy```
-        ```sugar verify```
-5) Now ```git clone https://github.com/metaplex-foundation/candy-machine-ui ./candy-machine-ui/
+        ```javascript
+           sugar validate
+          sugar upload
+          sugar deploy
+          sugar verify
+   ```
+6) Now ```git clone https://github.com/metaplex-foundation/candy-machine-ui ./candy-machine-ui/
 cd candy-machine-ui```
-6) copy paste these into .env.example and rename as ```.env```
+7) copy paste these into .env.example and rename as ```.env```
 ```javascript
 REACT_APP_CANDY_MACHINE_ID=<your machine id>
 REACT_APP_SOLANA_NETWORK=devnet
